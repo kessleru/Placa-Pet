@@ -408,11 +408,13 @@ body {
   }
 
   .modal-info {
+    margin: auto;
     padding-left: 0;
   }
 
   .modal-info h2 {
-    font-size: 28px;
+    font-size: 24px;
+    margin: 0;
   }
 
   .modal-info p {
