@@ -436,11 +436,17 @@ body {
     height: 180px;
   }
 
+  .modal-info {
+    margin: auto;
+  }
+
   .modal-info h2 {
     font-size: 24px;
+    margin: 0;
   }
 
   .modal-info p {
     font-size: 13px;
   }
+
 }
