@@ -100,7 +100,7 @@ const formandosData = {
   },
   eduardo: {
     name: "Eduardo",
-    image: "img/default.png",
+    image: "img/eduardo.png",
     details: [
       "Curso: Ciência da Computação",
       "Especialização: Web Design",
