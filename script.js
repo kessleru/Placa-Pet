@@ -98,6 +98,17 @@ const formandosData = {
       "Email: daniel@email.com",
     ],
   },
+  eduardo: {
+    name: "Eduardo",
+    image: "img/default.png",
+    details: [
+      "Curso: Ciência da Computação",
+      "Especialização: Web Design",
+      "Projeto de TCC: Site Responsivo",
+      "LinkedIn: linkedin.com/in/edurado",
+      "Email: eduardo@email.com",
+    ],
+  },
 };
 
 function openModal(formandoId) {
