@@ -1,4 +1,3 @@
-// Dados dos formandos
 const formandosData = {
   otavio: {
     name: "Otávio",
