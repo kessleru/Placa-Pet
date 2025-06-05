@@ -152,3 +152,42 @@ document.addEventListener("keydown", function (event) {
     closeModal();
   }
 });
+
+// Função para trocar todas as imagens para versão de terno com animação
+function switchToTernoImages() {
+  const formandoItems = document.querySelectorAll('.formando-item img');
+  
+  // Aplicar fade out em todas as imagens
+  formandoItems.forEach((img, index) => {
+    img.style.transition = 'opacity 0.5s ease-in-out';
+    img.style.opacity = '0';
+    
+    // Aguardar o fade out completar antes de trocar a imagem
+    setTimeout(() => {
+      const currentSrc = img.src;
+      const fileName = currentSrc.split('/').pop().split('.')[0];
+      const newSrc = currentSrc.replace(`${fileName}.png`, `${fileName}-terno.png`);
+      
+      // Trocar a imagem
+      img.src = newSrc;
+      
+      // Fazer fade in após trocar
+      setTimeout(() => {
+        img.style.opacity = '1';
+      }, 50); // Pequeno delay para garantir que a nova imagem carregou
+      
+    }, 500 + (index * 100)); // Delay escalonado para criar efeito cascata
+  });
+
+  // Atualizar também os dados dos formandos para o modal
+  Object.keys(formandosData).forEach(key => {
+    const currentImage = formandosData[key].image;
+    const fileName = currentImage.split('/').pop().split('.')[0];
+    formandosData[key].image = currentImage.replace(`${fileName}.png`, `${fileName}-terno.png`);
+  });
+
+  console.log('Imagens trocadas para versão de terno com animação!');
+}
+
+// Executar a troca após 1 minuto (60000 ms)
+setTimeout(switchToTernoImages, 50000);

@@ -172,18 +172,19 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .formando-item:hover {
   transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .formando-foto {
   width: 100%;
   height: 100%;
   overflow: hidden;
+
 }
 
 .formando-foto img {
@@ -191,6 +192,7 @@ body {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+
 }
 
 .formando-item:hover .formando-foto img {
