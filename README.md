@@ -1,23 +1,10 @@
-# 🎓 Placa de Formandos - IFTM [PROTÓTIPO]
+# 🎓 Placa de Formandos - IFTM
 
 Uma aplicação web interativa para exibir informações dos formandos da Turma PET 2025 do Instituto Federal do Triângulo Mineiro (IFTM) - Campus Ituiutaba.
-
-> **⚠️ Projeto Protótipo**: Esta é uma versão de demonstração que futuramente será expandida para atender todo o campus Ituiutaba, incluindo ensino médio e superior.
 
 ## 📋 Sobre o Projeto
 
 Este projeto foi desenvolvido para homenagear os formandos da Turma PET de Ciência da Computação do IFTM. A aplicação apresenta uma interface elegante onde é possível visualizar todos os formandos e, ao clicar em suas fotos, obter informações detalhadas sobre cada um, incluindo especializações, projetos de TCC e contatos profissionais.
-
-### 🚧 Protótipo e Visão Futura
-
-**Este é um projeto protótipo** que serve como uma amostra e demonstração das funcionalidades planejadas. No futuro, este sistema será expandido para se tornar uma **placa de formandos oficial para todo o IFTM Campus Ituiutaba**, atendendo tanto aos cursos do **Ensino Médio** quanto do **Ensino Superior**.
-
-A versão completa incluirá:
-- 🎓 Todas as turmas do campus Ituiutaba
-- 📚 Cursos técnicos integrados ao ensino médio
-- 🎯 Cursos superiores (graduação e pós-graduação)
-- 📊 Sistema de gerenciamento administrativo
-- 🔐 Área administrativa para atualização de dados
 - 📱 Maior responsividade e recursos avançados
 
 ## ✨ Funcionalidades
@@ -127,15 +114,7 @@ Para mais informações sobre o projeto ou a turma PET:
 - **Instituição**: Instituto Federal do Triângulo Mineiro - Campus Ituiutaba
 - **Ano**: 2025
 
-### 🔮 Roadmap Futuro
 
-Este protótipo demonstra as funcionalidades básicas que serão implementadas na versão completa da placa de formandos do IFTM Campus Ituiutaba, que incluirá:
-
-- **Ensino Médio Integrado**: Cursos técnicos em Informática, Eletrotécnica, Química, etc.
-- **Ensino Superior**: Bacharelados, licenciaturas e tecnólogos
-- **Pós-Graduação**: Especializações, mestrado e doutorado
-- **Histórico Institucional**: Arquivo de todas as turmas formadas
-- **Integração com Sistemas**: Conexão com sistemas acadêmicos do IFTM
 
 ---
 
